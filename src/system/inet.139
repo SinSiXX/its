@@ -539,7 +539,6 @@ IFE KS10P,[
 	;
 	CALL IMPCTS
 	 JRST IPGOQ5		; Can't send, requeue
-
 	; Got valid dgm, must ensure that block queue is merged back
 	; onto beginning of output queue.
 IPGOQ6:	METER("IP: ODs sent")
