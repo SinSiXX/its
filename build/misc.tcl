@@ -539,6 +539,10 @@ expect ":KILL"
 respond "*" ":midas dsk0:.;@ titler_mb; titler\r"
 expect ":KILL"
 
+# Knight TV Spacewar
+respond "*" ":midas games;ts tvwar_spcwar; tvwar\r"
+expect ":KILL"
+
 # MLIFE
 respond "*" ":midas;324 games;ts mlife_rwg;mlife\r"
 expect ":KILL"
